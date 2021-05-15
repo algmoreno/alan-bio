@@ -4,4 +4,39 @@
     box-sizing: border-box;
 }
 
+.head {
+    padding: 25px 15px; 
+    background-color: rgb(42, 156, 201);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.head h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    font-style: bold;
+}
+
+.head nav ul {
+    width: 100%;
+    box-sizing: border-box;
+    display: table;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.head nav ul li {
+    display: table-cell; 
+    padding: 20px 70px;
+    font-weight: lighter;
+    font-size: 25px;
+    text-shadow: 0 0 10px rgba(223, 207, 207, 0.5);
+}
+
+.head nav ul li a {
+    justify-content: space-around;
+}
 
