@@ -40,3 +40,24 @@
     justify-content: space-around;
 }
 
+
+.bio {
+    background-image: url("../images/library.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+.bio-pic {
+    margin: 10px 10px;
+    height: 25%;
+    width: 25%; 
+    border-style: groove;
+}
+
+.paragraph {
+    margin: 0 0 10px 10px;
+    width: 33%; 
+    background-color: antiquewhite;
+    border-style: groove;
+}
