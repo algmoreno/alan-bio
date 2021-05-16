@@ -117,6 +117,7 @@
 
 .projects h2 {
     text-align: center;
+    font-size: 35px;
     margin-top: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -137,15 +138,19 @@
 
 .buddy {
     margin-right: 20px;
-    background-image: url("");
+    background-image: url("../images/runbuddy-screenshot.jpg");
+    background-size: cover;
 }
 
 .password {
-    
+    background-image: url("../images/passwordgen-screenshot.jpg");
+    background-size: cover;
 }
 
 .next {
     margin-left: 20px;
+    background-image: url("../images/questionmark.png");
+    background-size: cover;
 }
 
 .buddy, 
@@ -168,6 +173,14 @@
     height: 300px; 
     background-color: teal;
 }
+
+.contact h3 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 
 .foot {
     height: 130px;
