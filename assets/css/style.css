@@ -235,6 +235,7 @@
     .head h1 {
         width: 100%;
         text-align: center;
+        margin-left: -80px;
     }
 
     .head nav ul {
@@ -248,8 +249,8 @@
     }
 
     .bio-pic {
-        height: 35%; 
-        width: 90%;
+        height: 200px; 
+        width: 300px;
     }
 
     .paragraph {
@@ -258,7 +259,12 @@
     }
 
     .quote p {
-        margin-left: 450px;
+        margin-left: 375px;
+        font-size: 20px;
+    }
+    
+    .works {
+        width: 850px; 
     }
 
     .buddy h3 {
@@ -266,12 +272,12 @@
         margin-left: -90px;
     }
     .password h3 {
-        margin-left: -100px;
+        margin-left: -110px;
     }
 
     .next h3 {
         margin-top: -40px; 
-        margin-left: -80px;
+        margin-left: -90px;
     }
 }
 
@@ -321,5 +327,26 @@
 }
 
 @media screen and (max-width: 575px) {
+    .head h1 {
+        margin-left: -45px; 
+    }
+
+    .bio {
+        width: 810px; 
+    }
+
+    .quote p {
+        margin-right: 100px;
+    }
     
+    .projects {
+        width: 810px; 
+    }
+
+    .works {
+        margin-left: -1px;
+    }
+    .contact {
+        width: 810px; 
+    }
 }
