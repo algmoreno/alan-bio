@@ -13,7 +13,7 @@
 }
 
 .head h1 {
-    color: whitesmoke;
+    color: rgba(255, 169, 88);
     padding: 0 0 0 80px; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 50px;
@@ -70,7 +70,7 @@
     display: inline-block; 
     margin: 10px 0 0 30px;
     height: 300px;
-    width: 400px; 
+    width: 425px; 
     border-style: groove;
     border-radius: 10px;
 }
@@ -81,7 +81,7 @@
     margin: 0 0 10px 100px;
     width: 400px; 
     height: 300px;
-    background-color: rgb(255, 255, 255, .65);
+    background-color: rgba(255, 169, 88, 0.65);
 
 }
 
@@ -100,7 +100,7 @@
 
 .quote p {
     display: inline-block; 
-    background-color: white;
+    background-color: rgba(255, 169, 88);
     height: 100%;
     width: 200px;
     text-align: center;
@@ -111,8 +111,9 @@
 }
 
 .projects {
-    height: 400px;
+    height: 600px;
     background-color: white;
+    
 }
 
 .projects h2 {
@@ -120,20 +121,31 @@
     font-size: 35px;
     margin-top: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 3px ridge;
+    width: 60%;
 }
 
 .works {
     display: inline-block; 
-    margin: 10px 0 0 25px;
+    margin: 120px 0 0 25px;
     width: 100%; 
     text-align: center;
 }
 
 .works h3 {
     font-style: italic;
-    font-size: 34px;
-    color: rgba(255, 118, 118, 0.65);
+    font-size: 64px;
+    color: rgba(255, 118, 118, 0.75);
+    display: flex; 
+    position: absolute;
+    transform: rotate(-25deg)
+                skew(-25deg);
+    margin-top: -30px;
+    margin-left: -45px;
+}
 
+.works h3:hover {
+    opacity: 50%;
 }
 
 .buddy {
@@ -158,6 +170,7 @@
 .next {
     flex: 1; 
     display: inline-block; 
+    position: relative; 
     background-color: teal;
     height: 300px;
     width: 30%; 
@@ -165,11 +178,27 @@
     padding: 100px 100px ;
     border-color: orangered;
     border-style: double;
+    transition: all .2s ease-in-out;
+}
+
+.buddy:hover {
+    transform: scale(1.1);
+    padding: 100px 100px;
+    opacity: 85%;
+}
+
+.password:hover {
+    transform: scale(1.1);
+    padding: 100px 100px;
+    opacity: 85%;
+}
+.next:hover {
+    transform: scale(1.1);
+    padding: 100px 100px;
+    opacity: 85%;
 }
 
 .contact {
-    display: flex;
-    flex-wrap: wrap;
     height: 300px; 
     background-color: teal;
 }
@@ -177,8 +206,20 @@
 .contact h3 {
     text-align: center;
     font-size: 35px;
-    margin-top: 25px;
+    padding-top: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 2px ridge black;
+    width: 60%;
+}
+
+.contact ul {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.contact ul li {
+    font-size: 24px;
+    color: white;
 }
 
 
