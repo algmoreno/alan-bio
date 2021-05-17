@@ -88,10 +88,11 @@
 
 .paragraph p {
     font-family: sans-serif;
-    padding: 10px; 
+    padding: 20px; 
 }
 
 .quote p {
+    flex: 1; 
     display: inline-block; 
     background-color: rgba(255, 169, 88);
     height: 100%;
